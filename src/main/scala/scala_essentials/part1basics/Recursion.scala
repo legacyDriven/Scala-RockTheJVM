@@ -84,7 +84,7 @@ object Recursion extends App{
     if (n <= 2) 1  // if n is less than or equal to 2, then return 1
     else fibonacciTailrec(2, 1, 1)  // if n is greater than 2, then call fibonacciTailrec
   }
-  
+
   println(fibonacci(8))
   println(fibonacci(100))
 
