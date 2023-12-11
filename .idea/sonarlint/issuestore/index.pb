@@ -83,3 +83,13 @@ B.idea/libraries/sbt__org_scala_lang_scala3_library_3_3_3_1_jar.xml,6\a\6aa58d5
 .bsp/sbt.json,2\d\2d1c848107550a7cf7f00ddb405f3bba740cc5b5
 q
 A.idea/libraries/sbt__org_scala_lang_scala_library_2_13_10_jar.xml,3\2\3247a9a3a8f56c7bf489e392763001090df23b85
+g
+7src/main/scala/scala_essentials/part3fp/Sequences.scala,a\e\aebc7dfd0d70bdbd440893bf1b7fad4d72b8f8ea
+k
+;src/main/scala/scala_essentials/part3fp/TuplesAndMaps.scala,7\c\7ccfe6f3718f2edabd4d5adbe0688bc7c5341ed6
+e
+5src/main/scala/scala_essentials/part3fp/Options.scala,3\8\38f2312d37b461b4e582f3332a36e838f38c199c
+m
+=src/main/scala/scala_essentials/part3fp/HandlingFailure.scala,4\b\4bf10859ad108449f92a9f7044d8fab670e46d88
+m
+=src/main/scala/scala_essentials/part4pm/PatternMatching.scala,f\6\f60e2038d7352ec78c69679bc3c663def2ac28d9
