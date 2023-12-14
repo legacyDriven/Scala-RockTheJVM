@@ -1,8 +1,8 @@
 
 L
-src/main/scala/Complex.scala,0/2/02ea12618f5c78078bf3d311dc9415fafddce695
+src/main/scala/Complex.scala,0\2\02ea12618f5c78078bf3d311dc9415fafddce695
 I
-src/main/scala/Tree.scala,7/9/79f4b8726d45731acee9d085ecab79d248ba93c2
+src/main/scala/Tree.scala,7\9\79f4b8726d45731acee9d085ecab79d248ba93c2
 9
 	build.sbt,7/4/74b95601c3a6d9d565cd312fac64094ec0f9d847
 J
@@ -93,3 +93,9 @@ m
 =src/main/scala/scala_essentials/part3fp/HandlingFailure.scala,4\b\4bf10859ad108449f92a9f7044d8fab670e46d88
 m
 =src/main/scala/scala_essentials/part4pm/PatternMatching.scala,f\6\f60e2038d7352ec78c69679bc3c663def2ac28d9
+l
+<src/main/scala/scala_essentials/part4pm/AllThePatterns.scala,5\0\5052c2122d59f0741646c7e6f450bc4d68e1619c
+p
+@src/main/scala/scala_essentials/part4pm/PatternsEverywhere.scala,4\7\47fed7aaa635df84f133f14edfd79b270803623a
+m
+=src/main/scala/scala_essentials/part4pm/BracelessSyntax.scala,2\7\27a2b7a5a55dc918549aa3ec1bb851e0392064b3

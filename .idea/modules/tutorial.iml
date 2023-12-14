@@ -12,7 +12,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.10:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang:scala3-library_3:3.3.1:jar" level="project" />
+    <orderEntry type="library" exported="" name="sbt: org.scala-lang:scala3-library_3:3.3.1:jar" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="72f2b770-31df-4fa3-a6e3-a26ab6519cd2" />
