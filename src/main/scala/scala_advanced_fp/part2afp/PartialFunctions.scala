@@ -45,6 +45,4 @@ object PartialFunctions extends App {
     case 45 => 67
   }
 
-  println(pfChain(2)) // 56
-
 }
