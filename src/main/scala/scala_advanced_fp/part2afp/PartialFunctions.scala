@@ -44,5 +44,5 @@ object PartialFunctions extends App {
   val pfChain = aPartialFunction.orElse[Int, Int] {
     case 45 => 67
   }
-
+  xxxxxxxxxxxxxx
 }
