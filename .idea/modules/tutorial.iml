@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="root [file:/C:/Users/g/Desktop/Scala-RockTheJVM/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_19">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_20">
     <output url="file://$MODULE_DIR$/../../target/scala-3.3.1/classes" />
     <output-test url="file://$MODULE_DIR$/../../target/scala-3.3.1/test-classes" />
     <exclude-output />
@@ -11,8 +11,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala3-library_3:3.3.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: scala-sdk-3.3.1" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.10:jar" level="project" />
-    <orderEntry type="library" exported="" name="sbt: org.scala-lang:scala3-library_3:3.3.1:jar" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="72f2b770-31df-4fa3-a6e3-a26ab6519cd2" />

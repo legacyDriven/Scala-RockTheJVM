@@ -1,7 +1,7 @@
 package com.eugeniusz.scala
 package scala_essentials.part2oop
 
-import playground.{Cinderella => Princess, PrinceCharming}
+import playground_essentials.{Cinderella => Princess, PrinceCharming}
 
 import java.util.Date
 import java.sql.{Date => SqlDate}  // aliasing

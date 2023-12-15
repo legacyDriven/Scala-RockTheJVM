@@ -90,7 +90,7 @@ object BracelessSyntax {
   // 3 spaces vs 2 tabs > 2 spaces and 2 tabs
   // 3 spaces vs 2 tabs > 3 spaces and 1 tab
   // 3 tabs + 2 spaces ??? 2 tabs + 3 spaces - compiler will get confused - do not mix tabs and spaces
-  
+
   def main(args: Array[String]): Unit = {
     println(anIfExpression)
     println(anIfExpression2)

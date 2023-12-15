@@ -1,5 +1,5 @@
 package com.eugeniusz.scala
-package playground
+package playground_essentials
 
 class Cinderella {
 
