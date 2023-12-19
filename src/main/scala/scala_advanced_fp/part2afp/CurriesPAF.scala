@@ -109,7 +109,5 @@ object CurriesPAF extends App {
   byFunction(parenthesesMethod)  // compiler does ETA-expansion for us
   byFunction(() => 46)  // ok
   byFunction(parenthesesMethod _)  // also works, but warning - unnecessary underscore
-  
-  
 
 }

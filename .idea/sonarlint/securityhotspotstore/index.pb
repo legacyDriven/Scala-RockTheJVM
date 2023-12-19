@@ -233,3 +233,7 @@ f
 6src/main/scala/scala_advanced_fp/exercises/MySet.scala,3\d\3dff93915f9a9c6ecf85d83242a34ca953023105
 j
 :src/main/scala/scala_advanced_fp/part2afp/CurriesPAF.scala,e\e\eea9d6bd4de313ec0fd915bee3cc1ae49cf9acb4
+n
+>src/main/scala/scala_advanced_fp/part2afp/LazyEvaluation.scala,3\6\36293d491d490954f20446d468f6e7a32dd50ae1
+r
+Bsrc/main/scala/scala_advanced_fp/exercises/StreamsPlayground.scala,8\e\8edabee7f55ab5c71a55568dada9fe23a3b2d777
