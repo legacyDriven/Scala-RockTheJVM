@@ -229,3 +229,7 @@ w
 G.idea/sonarlint/issuestore/5/d/5ddc7471b2c3906601ae7693fcc0dccf421de2a2,5\0\50fc6f20c681200d53fd605bd285f60e5119e909
 Å
 Q.idea/sonarlint/securityhotspotstore/5/d/5ddc7471b2c3906601ae7693fcc0dccf421de2a2,a\2\a26a3457f46e71c233aef09b37dae28ce7b6712e
+f
+6src/main/scala/scala_advanced_fp/exercises/MySet.scala,3\d\3dff93915f9a9c6ecf85d83242a34ca953023105
+j
+:src/main/scala/scala_advanced_fp/part2afp/CurriesPAF.scala,e\e\eea9d6bd4de313ec0fd915bee3cc1ae49cf9acb4
