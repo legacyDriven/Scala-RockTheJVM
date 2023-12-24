@@ -237,3 +237,11 @@ n
 >src/main/scala/scala_advanced_fp/part2afp/LazyEvaluation.scala,3\6\36293d491d490954f20446d468f6e7a32dd50ae1
 r
 Bsrc/main/scala/scala_advanced_fp/exercises/StreamsPlayground.scala,8\e\8edabee7f55ab5c71a55568dada9fe23a3b2d777
+f
+6src/main/scala/scala_advanced_fp/part2afp/Monads.scala,0\b\0b189757df80a9761d90d1e1ed6a2488eee183e2
+m
+=src/main/scala/scala_advanced_fp/part4concurrency/Intro.scala,6\d\6d2399108cf3f7e82b13da0dba8b8322b781f1eb
+~
+Nsrc/main/scala/scala_advanced_fp/part4concurrency/JVMConcurrencyProblems.scala,0\e\0eec10b717cba55a3254ae7d26d2300ea468472d
+{
+Ksrc/main/scala/scala_advanced_fp/part4concurrency/ThreadCommunication.scala,d\3\d3f2993e8fc3f632df89a6bbc6410e59d96a009a
