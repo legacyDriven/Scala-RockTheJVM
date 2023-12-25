@@ -215,7 +215,7 @@ object ThreadCommunication extends App {
           buffer.enqueue(i)
 
           // hey consumer, new food for you!
-          buffer.notify()
+          buffer.notify()  // notifyAll would wake up all the threads, but only one can consume, will prevent potential deadlock
 
           i += 1
         }
@@ -233,5 +233,94 @@ object ThreadCommunication extends App {
     (1 to nProducers).foreach(id => new Producer(id, buffer, capacity).start())
   }
 
-  multiProdCons(3, 6)  // play with different combinations of consumers and producers and capacity
+//  multiProdCons(3, 6)  // play with different combinations of consumers and producers and capacity
+
+  /*
+    Exercises.
+    1) think of an example where notifyAll acts in a different way than notify?
+    2) create a deadlock - two threads block each other, waiting for the other one to release a lock
+    3) create a livelock - threads are not blocked, but they are busy with a useless task
+   */
+
+  // 1 - notifyAll
+
+  def testNotifyAll(): Unit = {
+    val bell = new Object
+
+    (1 to 10).foreach(i => new Thread(() => {
+      bell.synchronized {
+        println(s"[thread $i] waiting...")
+        bell.wait()
+        println(s"[thread $i] hooray!")
+      }
+    }).start())
+
+    new Thread(() => {
+      Thread.sleep(2000)
+      println("[announcer] Rock'n roll!")
+      bell.synchronized {
+        bell.notifyAll() // notifyAll wakes up all the waiting threads
+      }
+    }).start()
+  }
+
+//  testNotifyAll()
+
+  // 2 - deadlock
+
+  case class Friend(name: String) {
+    def bow(other: Friend): Unit = {
+      this.synchronized {
+        println(s"$this: I'm bowing to my friend $other")
+        other.rise(this)
+        println(s"$this: my friend $other has risen")
+      }
+    }
+
+    def rise(other: Friend): Unit = {
+      this.synchronized {
+        println(s"$this: I'm rising to my friend $other")
+      }
+    }
+
+    // exercise 3 - livelock
+    var side = "right"
+
+    def switchSide(): Unit = {
+      if (side == "right") side = "left"
+      else side = "right"
+    }
+
+    def pass(other: Friend): Unit = {  // this is a livelock, where both threads are active, but they are not progressing
+      while (this.side == other.side) {
+        println(s"$this: Oh, but please, $other, feel free to pass...")
+        switchSide()
+        Thread.sleep(1000)
+      }
+    }
+  }
+
+  def testDeadlock(): Unit = {
+    val sam = Friend("Sam")
+    val pierre = Friend("Pierre")
+
+    // no thread can progress because both are waiting for each other to release the lock
+//    new Thread(() => sam.bow(pierre)).start() // sam's lock, then pierre's lock
+//    new Thread(() => pierre.bow(sam)).start() // pierre's lock, then sam's lock
+  }
+
+//  testDeadlock()
+
+  // 3 - livelock
+
+  def testLivelock(): Unit = {
+    val sam = Friend("Sam")
+    val pierre = Friend("Pierre")
+
+    new Thread(() => sam.pass(pierre)).start()
+    new Thread(() => pierre.pass(sam)).start()
+  }
+
+  testLivelock()
+
 }

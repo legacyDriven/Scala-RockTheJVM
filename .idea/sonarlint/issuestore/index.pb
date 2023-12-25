@@ -245,3 +245,9 @@ m
 Nsrc/main/scala/scala_advanced_fp/part4concurrency/JVMConcurrencyProblems.scala,0\e\0eec10b717cba55a3254ae7d26d2300ea468472d
 {
 Ksrc/main/scala/scala_advanced_fp/part4concurrency/ThreadCommunication.scala,d\3\d3f2993e8fc3f632df89a6bbc6410e59d96a009a
+z
+Jsrc/main/scala/scala_advanced_fp/part4concurrency/FuturesAndPromises.scala,d\5\d5b498f91d28c2cbc1f27328819c037ce0e25bce
+m
+=src/main/scala/scala_advanced_fp/part4concurrency/Retry.scala,1\6\16f33badc671882b6b6cbf0cbe6c2eeec9278100
+o
+?src/main/scala/scala_advanced_fp/part4concurrency/futures.scala,2\c\2c6307ffc0fc76ddfd77962853c1abaaa8087be2
