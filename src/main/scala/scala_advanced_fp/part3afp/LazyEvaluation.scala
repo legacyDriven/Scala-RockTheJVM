@@ -1,7 +1,7 @@
 package com.eugeniusz.scala
-package scala_advanced_fp.part2afp
+package scala_advanced_fp.part3afp
 
-import scala_advanced_fp.part2afp.LazyEvaluation.MyStream
+import scala_advanced_fp.part3afp.LazyEvaluation.MyStream
 
 object LazyEvaluation extends App {
 

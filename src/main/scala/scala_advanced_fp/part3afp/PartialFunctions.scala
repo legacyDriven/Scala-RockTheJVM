@@ -1,5 +1,5 @@
 package com.eugeniusz.scala
-package scala_advanced_fp.part2afp
+package scala_advanced_fp.part3afp
 
 object PartialFunctions extends App {
 

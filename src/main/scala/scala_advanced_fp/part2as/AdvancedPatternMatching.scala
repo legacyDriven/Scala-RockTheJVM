@@ -1,5 +1,5 @@
 package com.eugeniusz.scala
-package scala_advanced_fp.part1as
+package scala_advanced_fp.part2as
 
 object AdvancedPatternMatching extends App {
 
