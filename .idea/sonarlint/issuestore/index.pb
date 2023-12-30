@@ -239,3 +239,7 @@ j
 :src/main/scala/scala_advanced_fp/part3afp/CurriesPAF.scala,4\6\4601c99caf09aedf7b5e878249c92a08e063c0b1
 n
 >src/main/scala/scala_advanced_fp/part3afp/LazyEvaluation.scala,6\2\6266e73fd0fd908d88e4fc9151d9ad7fb3d49972
+q
+Asrc/main/scala/scala_advanced_fp/part5implicits/TypeClasses.scala,4\5\45fbcb1c8e2a0f94d0ac0af99972fbf2afa9909f
+s
+Csrc/main/scala/scala_advanced_fp/part5implicits/PimpMyLibrary.scala,5\2\521672b1ea0a46aa498e382c04521fbd48724ce6
