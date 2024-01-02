@@ -7,7 +7,6 @@ object PimpMyLibrary extends App {
 
   implicit class RichInt(val value: Int) extends AnyVal {
     def isEven: Boolean = value % 2 == 0
-
     def sqrt: Double = Math.sqrt(value)
 
     def times(function: () => Unit): Unit = {
@@ -17,8 +16,7 @@ object PimpMyLibrary extends App {
           function()
           timesAux(n - 1)
         }
-
-        timesAux(value)
+      timesAux(value)
     }
 
     def *[T](list: List[T]): List[T] = {
@@ -28,8 +26,8 @@ object PimpMyLibrary extends App {
 
       contatenate(value)
     }
-
   }
+
   implicit class RicherInt(richInt: RichInt){
     def isOdd: Boolean = richInt.value % 2 != 0
   }
@@ -70,6 +68,34 @@ object PimpMyLibrary extends App {
 
   3.times(() => println("Scala Rocks!"))
   println(4 * List(1,2))
+
+  // "3" / 4
+  implicit def stringToInt(string: String): Int = Integer.valueOf(string)
+
+  println("6" / 2)  // stringToInt("6") / 2
+
+  // equivalent: implicit class RichAltInt(value: Int)
+  class RichAltInt(value: Int)
+  implicit def enrich(value: Int): RichAltInt = new RichAltInt(value)  // implicit conversion method
+
+  // danger zone
+  implicit def intToBoolean(i: Int): Boolean = i == 1
+
+  /*
+  if (n) do something
+  else do something else
+   */
+
+  val aConditionedValue = if (3) "OK" else "Something wrong"
+  println(aConditionedValue)
+
+  /*
+  Tips:
+  - keep type enrichment to implicit classes and type classes
+  - avoid implicit defs as much as possible
+  - package implicits clearly, bring into scope only what you need
+  - if you need conversions, make them specific
+   */
 
 
 }

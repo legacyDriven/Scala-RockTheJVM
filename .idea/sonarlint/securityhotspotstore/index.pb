@@ -243,3 +243,15 @@ q
 Asrc/main/scala/scala_advanced_fp/part5implicits/TypeClasses.scala,4\5\45fbcb1c8e2a0f94d0ac0af99972fbf2afa9909f
 s
 Csrc/main/scala/scala_advanced_fp/part5implicits/PimpMyLibrary.scala,5\2\521672b1ea0a46aa498e382c04521fbd48724ce6
+s
+Csrc/main/scala/scala_advanced_fp/exercises/EqualityPlayground.scala,a\a\aa9d8a053bbe8183c8a27763e24ef31281c7e628
+y
+Isrc/main/scala/scala_advanced_fp/part5implicits/MyTypeClassTemplate.scala,a\0\a0c695469e5d1282b92a8753d8869954ce72818b
+w
+Gsrc/main/scala/scala_advanced_fp/part5implicits/JSONSerialization.scala,9\8\988bd059bbe5dce87150937a96f1ce28b987d550
+s
+Csrc/main/scala/scala_advanced_fp/part5implicits/MagnetPattern.scala,4\7\4777e33c97270076432a9721e7b81e118d75a961
+l
+<src/main/scala/scala_advanced_fp/part5implicits/Givens.scala,d\b\db08ab0257cfb17e48517ec03dedd562b42208eb
+v
+Fsrc/main/scala/scala_advanced_fp/part5implicits/ExtensionMethods.scala,c\6\c6efdd905965ab83ba735d0d05e630b33a17a639
